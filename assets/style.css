@@ -1,11 +1,14 @@
+
+
 html {
-    background: linear-gradient(177.52deg, #4574E3 2.11%, #154580 81.34%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 24%, rgba(136,19,19,1) 100%);
     background-repeat: no-repeat;
     height: 100%;
 }
 
 body {
-    font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+    font-weight: 10;
+    color: rgb(54, 10, 10)
 }
 
 h2, footer {
@@ -21,7 +24,7 @@ text-decoration: line-through;
 }
 
 .borda-lista {
-    border-bottom: dotted 2px blue;
+    border-bottom: solid 2px rgb(54, 10, 10);
 }
 
 input:disabled {
@@ -35,3 +38,27 @@ input {
     background: none;
     color: black;
 }
+
+button {
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'PT Sans';
+    font-weight: 600;
+}
+
+.transparent-hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    border: solid 2px;
+    font-size: 10px;
+}
+
+.transparent-hover:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+
